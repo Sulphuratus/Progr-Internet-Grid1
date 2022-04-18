@@ -1,0 +1,175 @@
+/*estilot2.css*/
+
+body {
+    background-color: azure;
+    text-align: center;
+    border: 2px solid #777;
+    padding: 0.5em;
+}
+
+#site{
+    /*width: 90%;*/
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "busca      busca      busca     busca      login"
+    "tela       tela       tela      divulgacao divulgacao"
+    "tela       tela       tela      minitela1  minitela1"
+    "tela       tela       tela      minitela2  minitela2"
+    "tela       tela       tela      minitela3  minitela3"
+    /*"tela       tela       tela      minitela4  minitela4"*/
+    "descricao  descricao  descricao .          ."
+    ;
+}
+
+#busca{
+    background-color: limegreen;
+    border: 2px solid #999;
+    grid-area: busca;
+    height: 30px;
+    padding: 0.1em;
+}
+
+#login{
+    background-color: indianred;
+    border: 2px solid darkolivegreen;
+    grid-area: login;
+   
+    margin-left: 10px;
+}
+
+#tela{
+    background-color: crimson;
+    border: 2px solid rgb(245, 241, 47);
+    grid-area: tela;
+    width: 99%;
+    height: 99%;
+    margin-top: 5px;
+}
+
+.interna{
+    background-color: rgb(20, 238, 191);
+  
+    border: 2px solid rgb(30, 98, 187);
+    
+    height: 98%;
+    width: 98%;
+    margin: 1px;
+}
+
+#divulgacao{
+    background-color: darkgrey;
+    grid-area: divulgacao;
+    
+    height: 50px;
+    padding: 2em;
+    margin: 5px 50px 5px 20px;  
+}
+
+#minitela1{
+    background-color: #ffffff;
+    grid-area: minitela1;
+  
+    height: 100px;
+    margin: 5px 50px 2px 10px;
+    border: 2px solid #013a37;
+    display: grid;
+    grid-template-areas:
+    "mtela1    texto1" 
+    ;
+}
+
+.mtela1{
+    background-color: #999;
+    border: 2px solid #013a37;
+    
+    grid-area: mtela1;
+    margin: 2px;
+}
+
+.texto1{
+    background-color: rgb(238, 201, 201);
+    border: 2px solid #013a37;
+   
+    grid-area: texto1;
+    margin: 2px 70px 2px 50px;
+}
+
+#minitela2{
+    background-color: #ffffff;
+    grid-area: minitela2;
+  
+    height: 100px; 
+    margin: 5px 50px 2px 10px;
+    border: 2px solid #013a37;
+    display: grid;
+    grid-template-areas:
+    "mtela2    texto2"
+    ;  
+}
+
+.mtela2{
+    background-color: #999;
+    padding: 0.5em;
+    grid-area: mtela2;
+    border: 2px solid #013a37;
+    margin: 2px;
+}
+
+.texto2{
+    background-color: rgb(240, 237, 92);
+    padding: 0.5em;
+    grid-area: texto2;
+    border: 2px solid #013a37;
+    margin: 2px 70px 2px 50px;
+}
+
+#minitela3{
+    background-color: #ffffff;
+    grid-area: minitela3;
+   
+    height: 100px;
+    margin: 5px 50px 2px 10px;
+    border: 2px solid #013a37;
+    display: grid;
+    grid-template-areas:
+    "mtela3    texto3"
+    ;
+    
+}
+
+.mtela3{
+    background-color: #999;
+    padding: 0.5em;
+    grid-area: mtela3;
+    border: 2px solid #013a37;
+    margin: 2px;
+}
+
+.texto3{
+    background-color: rgb(243, 78, 56);
+    padding: 0.5em;
+    grid-area: texto3;
+    border: 2px solid #013a37;
+    margin: 2px 70px 2px 50px;
+}
+
+/*#minitela4{
+    background-color: brown;
+    grid-area: minitela4;
+    /*width: 200px;*/
+    /*height: 50px;
+    margin: 5px 0px 2px 10px
+}*/
+
+#descricao{ 
+    background-color: rgb(79, 226, 21);
+    grid-area: descricao;
+    /*width: 500px;*/
+    padding: 1vw;
+    margin-top: 10px;
+}
+
+
+
+
